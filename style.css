@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    font-family: 'Inter'; 
+}
+#logo{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+#titulo-menusuperior{
+    margin-left: 150px; 
+    margin-top: 50px;
+}
+#texto-menusuperior{
+    margin-left: 150px; 
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+#menu-superior {
+    background-image: url(/image/icones/fundo-menusuperior.svg);
+    color:aliceblue;
+    
+} 
+
+#menuinformacional {
+    background-color: #eaece5; 
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 100px; 
+    display: flex;
+    padding: 20px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.textoinformativo{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#titulovideo{
+    color: #247BA0; 
+    margin-top:50px ;
+
+}
+
+#video{
+    margin: 50px 25px 50px 100px; 
+}
+
+#carrossel{
+
+    background-color: #247BA0; 
+    padding: 50px;
+}
+
+#titulocarrossel{
+    color: #eaece5; 
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px; 
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+   margin-left: 50px; 
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+.card:hover{ 
+    transform: translateY(-7px);/* da aspecto de subir */
+    transition-duration: 0,5s;/*tempo do movimento*/
+
+}
+
+#seta-esquerda{ 
+    display: none;
+
+}
+#Samantha{ 
+  display: none;
+}
+
+.seta{ 
+    margin-top: 55%;
+    cursor: pointer;/* para o mouse ficar com a maozinha */
+
+
+}
+.seta:hover{ 
+    transform: translateY(-7px);/* da aspecto de subir */
+    transition-duration: 0,5s;/*tempo do movimento*/
+}
+
+#formulario{ 
+
+text-align: center;  
+
+}
+#titulo-formulario{ 
+    margin: 25px;
+    color: #383838;
+    font-size: 25px;
+
+}
+/* Nao precisa colocar id nos inputs quando sao da mesma forma*/
+input{
+
+  width: 300px;/*cumprimento*/
+  height: 40px;/*altura*/
+  background-color: #EAECE5;/*cor da letra*/
+  margin: 15px;/*espaçamento entre os inputs+*/
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+
+}
+
+button{
+  background-color: #247BA0;
+  width: 250px;/*cumprimento*/
+  height: 40px;/*altura*/ 
+  color: #EAECE5;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;/* para o mouse ficar com a maozinha */
+
+}
+
+button:hover{
+    background: color #318fb8;
+    color: #EAECE5; 
+    transform: translateY(-7px);/* da aspecto de subir */
+    transition-duration: 0,5s;/*tempo do movimento*/
+    box-shadow: 0px 15px 20px  #1178c6;
+
+}
